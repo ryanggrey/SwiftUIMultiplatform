@@ -20,4 +20,4 @@ jobs:
     - name: Build watchOS
       run: xcodebuild clean build -project SwiftUIMultiplatform.xcodeproj -scheme "SwiftUIMultiplatform (watchOS) WatchKit App" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO ONLY_ACTIVE_ARCH=NO
     - name: Build tvOS
-      run: xcodebuild clean build -project SwiftUIMultilatform.xcodeproj -scheme "SwiftUIMultiPlatform (tvOS)" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO ONLY_ACTIVE_ARCH=NO
+      run: xcodebuild clean build -project SwiftUIMultiplatform.xcodeproj -scheme "SwiftUIMultiPlatform (tvOS)" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO ONLY_ACTIVE_ARCH=NO
