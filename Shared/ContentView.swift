@@ -9,7 +9,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        PlatformText()
+        let platformText = PlatformText()
+        #if os(tvOS)
+            platformText
+                .foregroundColor(.green)
+        #else
+            platformText
+        #endif
     }
 }
 
