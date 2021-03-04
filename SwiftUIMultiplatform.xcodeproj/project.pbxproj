@@ -27,6 +27,10 @@
 		1640101E25F1094D00EB19B9 /* SwiftUIMultiplatformApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16400F9E25F0FB0200EB19B9 /* SwiftUIMultiplatformApp.swift */; };
 		1640102B25F10B0900EB19B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16400F9F25F0FB0200EB19B9 /* ContentView.swift */; };
 		1640103225F10B0A00EB19B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16400F9F25F0FB0200EB19B9 /* ContentView.swift */; };
+		1640103A25F1126D00EB19B9 /* PlatformText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1640103925F1126D00EB19B9 /* PlatformText.swift */; };
+		1640104225F112F100EB19B9 /* PlatformText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1640104125F112F100EB19B9 /* PlatformText.swift */; };
+		1640105025F1133A00EB19B9 /* PlatformText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1640104F25F1133A00EB19B9 /* PlatformText.swift */; };
+		1640105825F1137200EB19B9 /* PlatformText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1640105725F1137200EB19B9 /* PlatformText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +100,10 @@
 		1640100225F103C400EB19B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1640100525F103C400EB19B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1640100725F103C400EB19B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1640103925F1126D00EB19B9 /* PlatformText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformText.swift; sourceTree = "<group>"; };
+		1640104125F112F100EB19B9 /* PlatformText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformText.swift; sourceTree = "<group>"; };
+		1640104F25F1133A00EB19B9 /* PlatformText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformText.swift; sourceTree = "<group>"; };
+		1640105725F1137200EB19B9 /* PlatformText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				16400FA825F0FB0500EB19B9 /* Info.plist */,
+				1640103925F1126D00EB19B9 /* PlatformText.swift */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -179,6 +188,7 @@
 			children = (
 				16400FAF25F0FB0500EB19B9 /* Info.plist */,
 				16400FB025F0FB0500EB19B9 /* macOS.entitlements */,
+				1640104125F112F100EB19B9 /* PlatformText.swift */,
 			);
 			path = macOS;
 			sourceTree = "<group>";
@@ -202,6 +212,7 @@
 				16400FE625F0FF5600EB19B9 /* Info.plist */,
 				16400FE725F0FF5600EB19B9 /* PushNotificationPayload.apns */,
 				16400FE325F0FF5600EB19B9 /* Preview Content */,
+				1640104F25F1133A00EB19B9 /* PlatformText.swift */,
 			);
 			path = "SwiftUIMultiplatform (watchOS) WatchKit Extension";
 			sourceTree = "<group>";
@@ -220,6 +231,7 @@
 				1640100225F103C400EB19B9 /* Assets.xcassets */,
 				1640100725F103C400EB19B9 /* Info.plist */,
 				1640100425F103C400EB19B9 /* Preview Content */,
+				1640105725F1137200EB19B9 /* PlatformText.swift */,
 			);
 			path = "SwiftUIMultiPlatform (tvOS)";
 			sourceTree = "<group>";
@@ -446,6 +458,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1640103A25F1126D00EB19B9 /* PlatformText.swift in Sources */,
 				16400FB325F0FB0500EB19B9 /* ContentView.swift in Sources */,
 				16400FB125F0FB0500EB19B9 /* SwiftUIMultiplatformApp.swift in Sources */,
 			);
@@ -457,6 +470,7 @@
 			files = (
 				16400FB425F0FB0500EB19B9 /* ContentView.swift in Sources */,
 				16400FB225F0FB0500EB19B9 /* SwiftUIMultiplatformApp.swift in Sources */,
+				1640104225F112F100EB19B9 /* PlatformText.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +481,7 @@
 				1640101725F1094C00EB19B9 /* SwiftUIMultiplatformApp.swift in Sources */,
 				1640103225F10B0A00EB19B9 /* ContentView.swift in Sources */,
 				16400FDC25F0FF5500EB19B9 /* NotificationController.swift in Sources */,
+				1640105025F1133A00EB19B9 /* PlatformText.swift in Sources */,
 				16400FE025F0FF5500EB19B9 /* ComplicationController.swift in Sources */,
 				16400FDE25F0FF5500EB19B9 /* NotificationView.swift in Sources */,
 			);
@@ -476,6 +491,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1640105825F1137200EB19B9 /* PlatformText.swift in Sources */,
 				1640102B25F10B0900EB19B9 /* ContentView.swift in Sources */,
 				1640101E25F1094D00EB19B9 /* SwiftUIMultiplatformApp.swift in Sources */,
 			);
