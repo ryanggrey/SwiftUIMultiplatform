@@ -16,17 +16,17 @@
 		16400FC725F0FF5200EB19B9 /* SwiftUIMultiplatform (watchOS) WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 16400FC625F0FF5200EB19B9 /* SwiftUIMultiplatform (watchOS) WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		16400FCC25F0FF5500EB19B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16400FCB25F0FF5500EB19B9 /* Assets.xcassets */; };
 		16400FD325F0FF5500EB19B9 /* SwiftUIMultiplatform (watchOS) WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 16400FD225F0FF5500EB19B9 /* SwiftUIMultiplatform (watchOS) WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		16400FD825F0FF5500EB19B9 /* SwiftUIMultiplatformApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16400FD725F0FF5500EB19B9 /* SwiftUIMultiplatformApp.swift */; };
 		16400FDA25F0FF5500EB19B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16400FD925F0FF5500EB19B9 /* ContentView.swift */; };
 		16400FDC25F0FF5500EB19B9 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16400FDB25F0FF5500EB19B9 /* NotificationController.swift */; };
 		16400FDE25F0FF5500EB19B9 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16400FDD25F0FF5500EB19B9 /* NotificationView.swift */; };
 		16400FE025F0FF5500EB19B9 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16400FDF25F0FF5500EB19B9 /* ComplicationController.swift */; };
 		16400FE225F0FF5600EB19B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16400FE125F0FF5600EB19B9 /* Assets.xcassets */; };
 		16400FE525F0FF5600EB19B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16400FE425F0FF5600EB19B9 /* Preview Assets.xcassets */; };
-		16400FFF25F103C100EB19B9 /* SwiftUIMultiPlatform__tvOS_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16400FFE25F103C100EB19B9 /* SwiftUIMultiPlatform__tvOS_App.swift */; };
 		1640100125F103C100EB19B9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1640100025F103C100EB19B9 /* ContentView.swift */; };
 		1640100325F103C400EB19B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1640100225F103C400EB19B9 /* Assets.xcassets */; };
 		1640100625F103C400EB19B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1640100525F103C400EB19B9 /* Preview Assets.xcassets */; };
+		1640101725F1094C00EB19B9 /* SwiftUIMultiplatformApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16400F9E25F0FB0200EB19B9 /* SwiftUIMultiplatformApp.swift */; };
+		1640101E25F1094D00EB19B9 /* SwiftUIMultiplatformApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16400F9E25F0FB0200EB19B9 /* SwiftUIMultiplatformApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,7 +85,6 @@
 		16400FCB25F0FF5500EB19B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16400FCD25F0FF5500EB19B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16400FD225F0FF5500EB19B9 /* SwiftUIMultiplatform (watchOS) WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SwiftUIMultiplatform (watchOS) WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		16400FD725F0FF5500EB19B9 /* SwiftUIMultiplatformApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMultiplatformApp.swift; sourceTree = "<group>"; };
 		16400FD925F0FF5500EB19B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		16400FDB25F0FF5500EB19B9 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		16400FDD25F0FF5500EB19B9 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
@@ -95,7 +94,6 @@
 		16400FE625F0FF5600EB19B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16400FE725F0FF5600EB19B9 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		16400FFC25F103C100EB19B9 /* SwiftUIMultiPlatform (tvOS).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUIMultiPlatform (tvOS).app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		16400FFE25F103C100EB19B9 /* SwiftUIMultiPlatform__tvOS_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMultiPlatform__tvOS_App.swift; sourceTree = "<group>"; };
 		1640100025F103C100EB19B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1640100225F103C400EB19B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1640100525F103C400EB19B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -199,7 +197,6 @@
 		16400FD625F0FF5500EB19B9 /* SwiftUIMultiplatform (watchOS) WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				16400FD725F0FF5500EB19B9 /* SwiftUIMultiplatformApp.swift */,
 				16400FD925F0FF5500EB19B9 /* ContentView.swift */,
 				16400FDB25F0FF5500EB19B9 /* NotificationController.swift */,
 				16400FDD25F0FF5500EB19B9 /* NotificationView.swift */,
@@ -223,7 +220,6 @@
 		16400FFD25F103C100EB19B9 /* SwiftUIMultiPlatform (tvOS) */ = {
 			isa = PBXGroup;
 			children = (
-				16400FFE25F103C100EB19B9 /* SwiftUIMultiPlatform__tvOS_App.swift */,
 				1640100025F103C100EB19B9 /* ContentView.swift */,
 				1640100225F103C400EB19B9 /* Assets.xcassets */,
 				1640100725F103C400EB19B9 /* Info.plist */,
@@ -472,10 +468,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1640101725F1094C00EB19B9 /* SwiftUIMultiplatformApp.swift in Sources */,
 				16400FDC25F0FF5500EB19B9 /* NotificationController.swift in Sources */,
 				16400FDA25F0FF5500EB19B9 /* ContentView.swift in Sources */,
 				16400FE025F0FF5500EB19B9 /* ComplicationController.swift in Sources */,
-				16400FD825F0FF5500EB19B9 /* SwiftUIMultiplatformApp.swift in Sources */,
 				16400FDE25F0FF5500EB19B9 /* NotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,8 +480,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1640101E25F1094D00EB19B9 /* SwiftUIMultiplatformApp.swift in Sources */,
 				1640100125F103C100EB19B9 /* ContentView.swift in Sources */,
-				16400FFF25F103C100EB19B9 /* SwiftUIMultiPlatform__tvOS_App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
